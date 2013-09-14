@@ -1,0 +1,12 @@
+.jv_aclickmenu_wrap ul.jv_maccordion ul{
+	margin: 0;
+}
+.jv_aclickmenu_wrap .jv_maccordion li {
+	list-style-type:none;
+	margin: 20px 0;
+}
+
+.jv_aclickmenu_wrap .jv_maccordion li li li {
+	list-style-type:none;
+	margin: 10px 0;
+}
