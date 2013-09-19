@@ -2,8 +2,6 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
 <head>
-
-
     <script src="public/lib/jquery/jquery-1.10.2.min.js"></script>
     <script>
         jQuery.noConflict();
@@ -13,9 +11,14 @@
     <script src="public/lib/cufon/cufon-yui.js"></script>
     <script src="public/lib/fonts/BentonSans_Thin_100.font.js"></script>
     <script src="public/lib/fonts/News_Gothic_MT_400.font.js"></script>
-    <script type="text/javascript">
-        Cufon.replace('#menu a, .orange .contentheading, #blue .contentheading, #pink .contentheading, #orange .contentheading, .componentheading', { fontFamily: 'News Gothic MT' });
+    <script>
+        jQuery(function () {
+            jQuery("#leftmenu").load("leftmenu.html", function () {
+                Cufon.replace('#menu a, .orange .contentheading, #blue .contentheading, #pink .contentheading, #orange .contentheading, .componentheading', { fontFamily: 'News Gothic MT' });
+            });
+        });
     </script>
+
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="robots" content="index, follow"/>
     <meta name="keywords"
@@ -72,176 +75,7 @@
 <div id="container">
     <div id="menu">
         <div class="moduletable">
-            <script type="text/javascript">
-                <!--//-->
-                <![CDATA[//><!--
-                jQuery.noConflict();
-                jQuery(document).ready(function () {
-                    jQuery("#jv_amenu_side48").accordion({
-                        initShow: "ul.current",
-                        objClass: ".jv_maccordion",
-                        slide: 0        });
-                    jQuery("#jv_amenu_side48").aMenuLoad({
-                        activeItemId: 1,
-                        moduleId: 48,
-                        eventType: 1
-                    });
-
-                });
-                //--><!
-                ]]>
-            </script>
-            <div style="display: none;"><a href="http://www.joomlavision.com" title="Joomla Templates">Joomla
-                Templates</a> and Joomla Extensions by JoomlaVision.Com
-            </div>
-            <div class="jv_aclickmenu_wrap">
-                <div id="jv_amenu_side48">
-                    <ul class="jv_maccordion">
-                        <li id="jv_amenu48_2" class="jv_amenu_item">
-                            <div class="wrap_link"><a class="trigger"
-                                                      href="/index.php?option=com_content&amp;view=article&amp;id=4&amp;Itemid=2">About
-                                Us</a></div>
-                            <div class="clear"></div>
-                            <ul class="jv_amenu_items" style="display: none;">
-                                <li id="jv_amenu48_6" class="jv_amenu_item last-child"><a
-                                        href="/index.php?option=com_content&amp;view=article&amp;id=3&amp;Itemid=6">manifesto</a>
-
-                                    <div class="clear"></div>
-                                </li>
-                                <li id="jv_amenu48_7" class="jv_amenu_item last-child"><a
-                                        href="/index.php?option=com_content&amp;view=article&amp;id=6&amp;Itemid=7">FAQ</a>
-
-                                    <div class="clear"></div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="jv_amenu48_3" class="jv_amenu_item">
-                            <div class="wrap_link"><a class="trigger"
-                                                      href="/index.php?option=com_content&amp;view=article&amp;id=1&amp;Itemid=11">photographers</a>
-                            </div>
-                            <div class="clear"></div>
-                            <ul class="jv_amenu_items" style="display: none;">
-                                <li id="jv_amenu48_8" class="jv_amenu_item">
-                                    <div class="wrap_link"><a class="trigger"
-                                                              href="/index.php?option=com_content&amp;view=article&amp;id=1&amp;Itemid=11">SARAH
-                                        YATES</a></div>
-                                    <div class="clear"></div>
-                                    <ul class="jv_amenu_items" style="display: none;">
-                                        <li id="jv_amenu48_11" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=article&amp;id=1&amp;Itemid=11">about
-                                            sarah</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_12" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=12">gallery
-                                            one</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_13" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=13">gallery
-                                            two</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="jv_amenu48_10" class="jv_amenu_item">
-                                    <div class="wrap_link"><a class="trigger"
-                                                              href="/index.php?option=com_content&amp;view=article&amp;id=5&amp;Itemid=17">REBECCA
-                                        FISHMAN</a></div>
-                                    <div class="clear"></div>
-                                    <ul class="jv_amenu_items" style="display: none;">
-                                        <li id="jv_amenu48_17" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=article&amp;id=5&amp;Itemid=17">about
-                                            rebecca</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_18" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=18">gallery
-                                            one</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_19" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=19">gallery
-                                            two</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="jv_amenu48_39" class="jv_amenu_item">
-                                    <div class="wrap_link"><a class="trigger"
-                                                              href="/index.php?option=com_content&amp;view=article&amp;id=34&amp;Itemid=40">JEN
-                                        LAUREN GRANT</a></div>
-                                    <div class="clear"></div>
-                                    <ul class="jv_amenu_items" style="display: none;">
-                                        <li id="jv_amenu48_40" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=article&amp;id=34&amp;Itemid=40">about
-                                            jen</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_41" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=41">gallery
-                                            one</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_42" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=42">gallery
-                                            two</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="jv_amenu48_43" class="jv_amenu_item">
-                                    <div class="wrap_link"><a class="trigger"
-                                                              href="/index.php?option=com_content&amp;view=article&amp;id=35&amp;Itemid=44">JACQUELINE
-                                        CAMPBELL</a></div>
-                                    <div class="clear"></div>
-                                    <ul class="jv_amenu_items" style="display: none;">
-                                        <li id="jv_amenu48_44" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=article&amp;id=35&amp;Itemid=44">about
-                                            jacqueline</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_45" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=45">gallery
-                                            one</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                        <li id="jv_amenu48_46" class="jv_amenu_item last-child"><a
-                                                href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=46">gallery
-                                            two</a>
-
-                                            <div class="clear"></div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="jv_amenu48_34" class="jv_amenu_item last-child"><a target="_blank"
-                                                                                   href="http://birdsofafeatherphoto.com/blog/">our
-                            blog</a>
-
-                            <div class="clear"></div>
-                        </li>
-                        <li id="jv_amenu48_5" class="jv_amenu_item last-child"><a
-                                href="/index.php?option=com_contact&amp;view=contact&amp;id=1&amp;Itemid=5">Contact
-                            US</a>
-
-                            <div class="clear"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <div id="leftmenu"></div>
         </div>
 
     </div>
@@ -612,6 +446,8 @@
 <div class="clr"></div>
 </div>
 </div>
+
 <script type="text/javascript" src="public/lib/jquery/jquery.touchSwipe.min.js"></script>
+
 </body>
 </html>

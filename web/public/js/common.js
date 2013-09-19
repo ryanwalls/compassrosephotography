@@ -152,3 +152,8 @@ function stopMove(){
     type = "Scroll";
     clearTimeout(t);
 }
+
+function loadFAQ() {
+    console.log("loading FAQ");
+    jQuery('#maincontent').load('faq.html');
+}

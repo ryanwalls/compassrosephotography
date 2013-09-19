@@ -4,8 +4,8 @@ div#main_images { overflow: hidden; }
 
 #main-content { float:left; overflow:hidden; width: 100%; margin-bottom: 15px;}
 
-.scrollbar-hor{ background-color: #dcd8d2; height: 9px; width: 100%; float:left; }
-.handle-hor{ height: 9px; width: 94px; background: url(../images/scroller.png) no-repeat; }
+.scrollbar-hor{  height: 9px; width: 100%; float:left; }
+.handle-hor{ background-color: #dcd8d2; height: 9px; width: 94px; }
 
 div#scrollbar {
     display:block; /* initially display:none; to hide from incapable */

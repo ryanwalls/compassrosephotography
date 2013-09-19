@@ -1,0 +1,47 @@
+/* outermost element for the scroller (stays still) */
+#scrollwrap {
+	position:relative;
+	overflow:hidden;
+	width: 740px;	
+	height:525px;
+	margin-bottom:15px;
+}
+
+#scrollwrap-orange {
+	background: #f0eeeb;
+	padding-top: 50px;
+}
+
+/* the element that moves forward/backward */
+#scroll { 	
+	position:relative;
+	width: 20000px;	
+	height:525px;
+	left:-100px;
+} 
+
+.slider {
+	background: #dcd8d2;
+	position:relative; 
+	cursor:pointer;
+	height:9px;
+	width:740px;
+}
+
+.progress {
+	position:absolute;
+	width:0;
+}
+
+.handle { 
+	background: url(../images/scroller.png) no-repeat;
+	height:9px;
+	width:94px;
+	position:absolute; 
+	display:block;
+	cursor:move;
+}
+
+.range {
+	display:none;
+}
